@@ -5,6 +5,10 @@ import Main from "./Components/Main";
 import { Link } from 'react-router-dom';
 
 function App() {
+  const test = () => {
+    console.log("app launched successfilly.");
+    console.log('Hello world');
+  }
   return (
     <div className="demo-big-content">
       <Layout>
